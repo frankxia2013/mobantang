@@ -75,13 +75,13 @@ class paypal
      *
      * @return void
      */
-    function paypal()
-    {
-    }
-
     function __construct()
     {
         $this->paypal();
+    }
+
+    function paypal()
+    {
     }
 
     /**

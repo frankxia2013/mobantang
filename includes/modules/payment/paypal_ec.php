@@ -88,17 +88,15 @@ class paypal_ec
      *
      * @return void
      */
-    function paypal_ec()
-    {
-
-    }
-
     function __construct()
     {
         $this->paypal_ec();
     }
+    
+    function paypal_ec()
+    {
 
-
+    }
 
     /**
      * 生成支付代码
